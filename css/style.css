@@ -87,7 +87,7 @@ img[alt="plus"] {
 }
 
 .action-btns {
-  display: inline-block;
+  /* display: inline-block; */
   margin-top: 60px;
 }
 .action-btn {
@@ -253,11 +253,15 @@ img[alt="headphone"] {
   .headphone-div {
     width: 320px;
   }
+  .left-section{
+    padding: 20px 0 20px 0;
+  }
   .right-section {
     min-width: 320px;
   }
   img[alt="headphone"] {
     height: 300px;
+    left: 3%;
   }
   img[alt="discount"] {
     top: 150px;
@@ -282,5 +286,35 @@ img[alt="headphone"] {
   .dots {
     left: 0;
     width: 100%;
+  }
+  .action-btn{
+    font-size: 10px;
+    width: 90px;
+  }
+  .action-btns{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 375px){
+  img[alt="headphone"] {
+    height: 260px;
+    left: 10%;
+    
+  }
+  img[alt="discount"] {
+    left: 4%;
+    width: 80px;
+  }
+  .discount-content{
+    left: 5%;
+    top: 150px;
+  }
+  .discount-content h4{
+    font-size: 9px;
+  }
+  .discount-content h1{
+    font-size: 30px;
   }
 }
